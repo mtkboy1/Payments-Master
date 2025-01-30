@@ -8,8 +8,8 @@
     tools:context=".MainActivity">
 
     <ScrollView
-        android:layout_width="328dp"
-        android:layout_height="477dp"
+        android:layout_width="328sp"
+        android:layout_height="477sp"
         android:layout_marginStart="49dp"
         android:layout_marginTop="52dp"
         android:layout_marginEnd="50dp"

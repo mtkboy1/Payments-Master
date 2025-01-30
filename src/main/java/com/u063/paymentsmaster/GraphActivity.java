@@ -48,7 +48,7 @@ public class GraphActivity extends AppCompatActivity {
             for(float y = Math.abs(1000-(float) 1000 / biggest * pays.get(i)); y<1000; y++) {
                 for (int x = i*(640 / pays.size()); x < (i+1)*(640 / pays.size()); x++) {
                     if (x > 0) {
-                        bm.setPixel(x, (int) y, Color.BLACK);
+                        bm.setPixel(x, (int) y, Color.GRAY);
                     }
                 }
             }
